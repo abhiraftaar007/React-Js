@@ -17,6 +17,15 @@ You may also see any lint errors in the console.
 npm install --save-dev ajv@^7
 Use this if npm start is not working
 
+### Github master to main push
+There isn’t anything to compare.
+main and master are entirely different commit histories.
+
+git checkout master   
+git branch main master -f    
+git checkout main  
+git push origin main -f
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
