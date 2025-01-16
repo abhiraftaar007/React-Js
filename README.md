@@ -14,8 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### Use this if "npm start" is not working
 npm install --save-dev ajv@^7
-Use this if npm start is not working
+
+### Upgrade React 
+npm i react@latest react-dom@latest
 
 ### Github master to main push
 There isn’t anything to compare.
